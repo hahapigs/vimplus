@@ -16,6 +16,8 @@
 
 Plug 'rizzatti/dash.vim'
 Plug 'airblade/vim-gitgutter'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 
 " 卸载/禁用~/.vimrc里的默认插件
 " UnPlug 'chxuan/prepare-code'
